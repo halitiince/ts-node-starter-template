@@ -1,0 +1,25 @@
+{
+  "name": "ts-node-template",
+  "version": "1.0.0",
+  "description": "A template project to develop Node.js and TypeScript app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halitiince/ts-node-template.git"
+  },
+  "author": "@halitiince",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halitiince/ts-node-template/issues"
+  },
+  "homepage": "https://github.com/halitiince/ts-node-template#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.5",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
